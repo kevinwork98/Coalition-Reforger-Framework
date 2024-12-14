@@ -45,7 +45,7 @@ PS_GameModeCoop CRF_GameMode_Lobby_1 : "{70D51A019CC9AA3F}Prefabs/MP/Modes/Lobby
    m_sFreeRoamBuildingClientTrigger "{5E191CEAF4B95816}Prefabs/MP/FreeRoamBuildingClientTrigger.et"
    m_BudgetType CAMPAIGN
    m_iCompositionRefundPercentage 100
-   m_OutlineManager SCR_CampaignBuildingCompositionOutlineManager "{5DF6FBB5913F3245}" : "{96A8B496A076F1C0}scripts/Game/Building/CampaignBuildingCompositionOutline.conf" {
+   m_OutlineManager SCR_CampaignBuildingCompositionOutlineManager "{5DF6FBB5913F3245}" : "{96A8B496A076F1C0}Scripts/Game/Building/CampaignBuildingCompositionOutline.conf" {
    }
    m_sPrefabsToBuildResource "{D2527D9AA5B4A33E}Configs/Editor/PlaceableEntities/Compositions/Compositions_FreeRoamBuilding.conf"
   }
@@ -119,11 +119,11 @@ PS_GameModeCoop CRF_GameMode_Lobby_1 : "{70D51A019CC9AA3F}Prefabs/MP/Modes/Lobby
      }
      "Identity of soldiers" FactionIdentity "{570D128F4022EF5A}" {
       SocialIdentity SocialIdentity "{56E4EBD9F0C03530}" {
-       NamesConfig +{
+       NamesConfig {
        }
-       AliasesConfig +{
+       AliasesConfig {
        }
-       SurnamesConfig +{
+       SurnamesConfig {
        }
       }
      }
@@ -285,7 +285,7 @@ PS_GameModeCoop CRF_GameMode_Lobby_1 : "{70D51A019CC9AA3F}Prefabs/MP/Modes/Lobby
       m_sNameUpper "INDFOR"
      }
      m_bIsPlayable 1
-     m_aFriendlyFactionsIds +{
+     m_aFriendlyFactionsIds {
      }
      m_sFactionRadioEncryptionKey "candleSauce"
     }
@@ -399,7 +399,7 @@ PS_GameModeCoop CRF_GameMode_Lobby_1 : "{70D51A019CC9AA3F}Prefabs/MP/Modes/Lobby
      }
      m_sGroupFlagsImageSet "{1228936E5DB30403}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor.imageset"
      m_sGroupFlagsImageSetOutlines "{D1BFDF90DD7A4E01}UI/Textures/GroupManagement/FlagIcons/GroupFlagsBlufor-outline.imageset"
-     m_aFlagNames +{
+     m_aFlagNames {
      }
      m_sFactionBackground "{F8AC305446D5D480}UI/Textures/DeployMenu/Loadout-BG/Loadout_US_BG.imageset"
      m_aBaseCallsigns {

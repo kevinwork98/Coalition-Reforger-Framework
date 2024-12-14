@@ -21,9 +21,14 @@ SCR_AIGroup : "{96DB67CD45DC5F85}Prefabs/Groups/INDFOR/Standard/Command/CRF_INDF
            coords 23.832 7.017 19.163
            m_sCustomNameSet "Cell 1-5"
            {
-            SCR_AIGroup : "{0A56302C3814952B}Prefabs/Groups/INDFOR/Standard/Support/CRF_INDFOR_MMGTeam_p.et" {
-             coords 0.273 -4.104 -9.603
-             m_sCustomNameSet "MMG Cell"
+            SCR_AIGroup : "{48C8363A10E31372}Prefabs/Groups/INDFOR/Standard/Support/CRF_INDFOR_HMGTeam_p.et" {
+             coords 0.532 -4.082 -9.469
+             m_sCustomNameSet "HMG Cell"
+             {
+              SCR_AIGroup : "{D6130EBAAA378DE2}Prefabs/Groups/INDFOR/Standard/Support/CRF_INDFOR_SniperTeam_p.et" {
+               coords 2.01 -3.404 -10.665
+              }
+             }
             }
            }
           }
