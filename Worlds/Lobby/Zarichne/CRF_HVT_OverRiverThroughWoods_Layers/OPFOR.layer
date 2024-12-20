@@ -1,0 +1,39 @@
+Vehicle UAZ452_CDF_Ambulance_CDF1 : "{45B4F354E7A3B4E2}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_CDF_Ambulance_CDF.et" {
+ coords 3003.407 26.958 4125.271
+ angleY 230
+}
+SCR_AIGroup : "{6524B6A6C69BD3EE}Prefabs/Groups/OPFOR/Standard/Command/CRF_OPFOR_Platoon_p.et" {
+ coords 3005.423 26.423 4114.208
+}
+$grp SCR_AIGroup : "{803383BB28D07BB9}Prefabs/Groups/OPFOR/Standard/Vehicle/CRF_OPFOR_2manVehicleCrew_p.et" {
+ {
+  coords 2983.832 26.994 4120.383
+ }
+ {
+  coords 2992.762 26.814 4127.76
+ }
+}
+$grp SCR_AIGroup : "{92F50F60726EB86D}Prefabs/Groups/OPFOR/Standard/Infantry/CRF_OPFOR_RifleSquad_p.et" {
+ {
+  coords 3013.788 26.406 4119.507
+ }
+ {
+  coords 3005.269 26.652 4136.965
+ }
+ {
+  coords 3031.133 26.406 4136.958
+ }
+ {
+  coords 3024.594 26.75 4150.723
+ }
+}
+$grp Vehicle : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
+ BTR1 {
+  coords 2984.792 27.094 4109.308
+  angleY 230
+ }
+ BTR2 {
+  coords 2995.255 27.013 4117.986
+  angleY 230
+ }
+}

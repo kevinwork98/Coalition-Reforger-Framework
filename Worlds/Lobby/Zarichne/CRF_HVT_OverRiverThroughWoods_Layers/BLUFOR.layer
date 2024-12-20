@@ -1,0 +1,39 @@
+Vehicle M997A1 : "{120942512DFEF2B5}Prefabs/Vehicles/Wheeled/M998/US/Ambulance/M997A3.et" {
+ coords 2479.163 18.88 2940.237
+ angleY 250
+}
+SCR_AIGroup : "{3D4D53B053964445}Prefabs/Groups/BLUFOR/Standard/Command/CRF_BLUFOR_Platoon_p.et" {
+ coords 2440.29 18.033 2897.106
+}
+$grp SCR_AIGroup : "{679BC3454FEDD0EE}Prefabs/Groups/BLUFOR/Standard/Vehicle/CRF_BLUFOR_2manCrew_p.et" {
+ {
+  coords 2471.576 19.157 2906.381
+ }
+ {
+  coords 2473.92 19.42 2890.863
+ }
+}
+$grp SCR_AIGroup : "{9C45BAF40F909576}Prefabs/Groups/BLUFOR/Standard/Infantry/CRF_BLUFOR_RifleSquad_p.et" {
+ {
+  coords 2440.68 18.314 2879.679
+ }
+ {
+  coords 2441.039 17.888 2867.858
+ }
+ {
+  coords 2441.812 17.571 2858.304
+ }
+ {
+  coords 2440.282 17.039 2845.31
+ }
+}
+$grp Vehicle : "{E3DD72FD06BA2320}Prefabs/Vehicles/Wheeled/Stryker/M1126/CROWS/Stryker_CROWS.et" {
+ Stryker_CROWS1 {
+  coords 2453.467 18.054 2929.394
+  angleY 245
+ }
+ Stryker_CROWS2 {
+  coords 2466.552 18.447 2935.511
+  angleY 245
+ }
+}
